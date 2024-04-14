@@ -1,89 +1,140 @@
+Certainly! Here's an updated version of your HTML with a more visually appealing design:
+
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
         table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
             width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
         }
-
-        td, th {
-            border: 1px solid #dddddd;
+        th, td {
+            padding: 10px;
             text-align: left;
-            padding: 8px;
+            border-bottom: 1px solid #ddd;
         }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        td:first-child {
+            width: 120px;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
         }
     </style>
 </head>
 <body>
+
+<div class="container">
+    <h2>Personal Information</h2>
     <table>
         <tr>
-            <td colspan="1">Name:</td>
-            <td colspan="2"></td>
-            <td colspan="2" rowspan="4"><img src=" "width="100" height="100" alt="Photo"></td>
+            <th colspan="2">General</th>
+            <th rowspan="5"><img src="placeholder.jpg" alt="Photo"></th>
         </tr>
         <tr>
-            <td colspan="2">Date of Birth:</td>
-            <td colspan="2"></td>
+            <td>Name:</td>
+            <td></td>
         </tr>
         <tr>
-            <td colspan="2">Religion:</td>
-            <td colspan="2"></td>
+            <td>Date of Birth:</td>
+            <td></td>
         </tr>
         <tr>
-            <td colspan="2">Race:</td>
-            <td colspan="2"></td>
+            <td>Religion:</td>
+            <td></td>
         </tr>
         <tr>
-            <td rowspan="4">Address:</td>
+            <td>Race:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="2">Address</th>
+            <td></td>
+        </tr>
+        <tr>
             <td>Street:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
             <td>Town:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
             <td>District:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
             <td>State:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
-            <td rowspan="3">Contact:</td>
+            <th colspan="2">Contact</th>
+            <td></td>
+        </tr>
+        <tr>
             <td>Mobile Phone:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
             <td>Social Media:</td>
-            <td colspan="3"></td>
+            <td></td>
         </tr>
         <tr>
             <td>Website:</td>
-            <td colspan="3"><a href=></a></td>
+            <td><a href="#"></a></td>
         </tr>
         <tr>
-            <td colspan="2">Course and Institution:</td>
-            <td colspan="4"></td>
+            <th colspan="2">Education</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Course and Institution:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="2">Skills & Interests</th>
+            <td></td>
         </tr>
         <tr>
             <td>Programming Skills:</td>
-            <td colspan="5"></td>
+            <td></td>
         </tr>
         <tr>
             <td>Personal Interests:</td>
-            <td colspan="5"></td>
+            <td></td>
         </tr>
         <tr>
-            <td>Plan in 2024:</td>
-            <td colspan="5"></td>
+            <th colspan="2">Plans for 2024</th>
+            <td></td>
         </tr>
-    </table>          
+    </table>
+</div>
+
 </body>
 </html>
+```
+
+Remember to replace `"placeholder.jpg"` with the actual path to your image. This HTML code provides a clean and organized layout for your personal information form.
